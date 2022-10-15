@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>MyDelivery</title>
+    <title>MyVegan</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,49 +23,114 @@
 <body>
     <div class="container">
         <div class="top-bar">
-            <b>MyDelivery</b>
+            <b>MyVegan</b>
             <p>Your food in 6 minutes</p>
         </div>
         <div class="feed">
             <!--First option-->
-            <div class="first boxes">
+            <div class="first boxes" data-test="dishes">
                 <b>First, your dish</b>
                 <div class="dishes">
-                    <button class="dish box" onclick="green()">
+                    <button class="dish box" onclick="selectDish(this)" data-test="food-option">
                         <img src="img/All_Seasons.jpg" />
-                        <b class="name">All Seasons</b>
+                        <b class="name" data-test="food-title">All Seasons </b>
                         <p class="description">comida bonita no prato bonito</p>
-                        <p class="price">R$29,50</p>
+                        <p class="price" data-test="food-price">R$ 29,50</p>
                     </button>
-                    <button class="dish box" onclick="green()">
+                    <button class="dish box" onclick="selectDish(this)" data-test="food-option">
                         <img src="img/All_Seasons.jpg" />
-                        <b class="name">All Seasons</b>
+                        <b class="name" data-test="food-title">All Seasons</b>
                         <p class="description">comida bonita no prato bonito</p>
-                        <p class="price">R$29,50</p>
+                        <p class="price" data-test="food-price">R$ 29,50</p>
                     </button>
-                    <button class="dish box" onclick="green()">
+                    <button class="dish box" onclick="selectDish(this)" data-test="food-option">
                         <img src="img/All_Seasons.jpg" />
-                        <b class="name">All Seasons</b>
+                        <b class="name" data-test="food-title">All Seasons</b>
                         <p class="description">comida bonita no prato bonito</p>
-                        <p class="price">R$29,50</p>
+                        <p class="price" data-test="food-price">R$ 29,50</p>
+                    </button>
+                    <button class="dish box" onclick="selectDish(this)" data-test="food-option">
+                        <img src="img/All_Seasons.jpg" />
+                        <b class="name" data-test="food-title">All Seasons</b>
+                        <p class="description">comida bonita no prato bonito</p>
+                        <p class="price" data-test="food-price">R$ 29,50</p>
                     </button>
                 </div>
             </div>
             <!--end First option-->
 
             <!--Second option-->
-            <div class="drink">
-
+            <div class="second boxes" data-test="drinks">
+                <b>Second, your drink</b>
+                <div class="drinks">
+                    <button class="drink box" onclick="selectDrink(this)" data-test="food-option">
+                        <img src="img/All_Seasons.jpg" />
+                        <b class="name" data-test="food-title">All Seasons</b>
+                        <p class="description">comida bonita no prato bonito</p>
+                        <p class="price" data-test="food-price">R$ 29,50</p>
+                    </button>
+                    <button class="drink box" onclick="selectDrink(this)" data-test="food-option">
+                        <img src="img/All_Seasons.jpg" />
+                        <b class="name" data-test="food-title">All Seasons</b>
+                        <p class="description">comida bonita no prato bonito</p>
+                        <p class="price" data-test="food-price">R$ 29,50</p>
+                    </button>
+                    <button class="drink box" onclick="selectDrink(this)" data-test="food-option">
+                        <img src="img/All_Seasons.jpg" />
+                        <b class="name" data-test="food-title">All Seasons</b>
+                        <p class="description">comida bonita no prato bonito</p>
+                        <p class="price" data-test="food-price">R$ 29,50</p>
+                    </button>
+                    <button class="drink box" onclick="selectDrink(this)" data-test="food-option">
+                        <img src="img/All_Seasons.jpg" />
+                        <b class="name" data-test="food-title">All Seasons</b>
+                        <p class="description">comida bonita no prato bonito</p>
+                        <p class="price" data-test="food-price">R$ 29,50</p>
+                    </button>
+                </div>
             </div>
             <!--end Second option-->
 
             <!--Third option-->
-            <div class="dessert">
-
+            <div class="third boxes" data-test="desserts">
+                <b>Third, your dessert</b>
+                <div class="desserts">
+                    <button class="dessert box" onclick="selectDessert(this)" data-test="food-option">
+                        <img src="img/All_Seasons.jpg" />
+                        <b class="name" data-test="food-title">All Seasons</b>
+                        <p class="description">comida bonita no prato bonito</p>
+                        <p class="price" data-test="food-price">R$ 29,50</p>
+                    </button>
+                    <button class="dessert box" onclick="selectDessert(this)" data-test="food-option">
+                        <img src="img/All_Seasons.jpg" />
+                        <b class="name" data-test="food-title">All Seasons</b>
+                        <p class="description">comida bonita no prato bonito</p>
+                        <p class="price" data-test="food-price">R$ 29,50</p>
+                    </button>
+                    <button class="dessert box" onclick="selectDessert(this)" data-test="food-option">
+                        <img src="img/All_Seasons.jpg" />
+                        <b class="name" data-test="food-title">All Seasons</b>
+                        <p class="description">comida bonita no prato bonito</p>
+                        <p class="price" data-test="food-price">R$ 29,50</p>
+                    </button>
+                    <button class="dessert box" onclick="selectDessert(this)" data-test="food-option">
+                        <img src="img/All_Seasons.jpg" />
+                        <b class="name" data-test="food-title">All Seasons</b>
+                        <p class="description">comida bonita no prato bonito</p>
+                        <p class="price" data-test="food-price">R$ 29,50</p>
+                    </button>
+                </div>
             </div>
             <!--end Third option-->
         </div>
         <!--end feed-->
+        <div class="bottom-bar" >
+            <button class="finish" data-test="finish-button">
+                <p>Selecione os 3 itens</p>
+                <br>
+                <p>para fechar o pedido</p>
+            </button>
+        </div>
     </div>
     <!--end container-->
 
