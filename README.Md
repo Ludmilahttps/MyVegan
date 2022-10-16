@@ -1,4 +1,4 @@
-This project is a mobile implementation of a food delivery app, for this, the restaurant only works with bundles of dish + drink + dessert. This working with HTML, CSS and JavaScript. Try it out now at (link deploy)
+This project is a mobile implementation of a food delivery app, for this, the restaurant only works with bundles of dish + drink + dessert. This working with HTML, CSS and JavaScript. Try it out now at https://myvegan.vercel.app/
 
 # About
 - Layout
@@ -27,15 +27,13 @@ This web site is a replica, using the tecnologies:
 
 By open this website is possible see all styles and features implemented by the long in your construction.
 
-https://www.findandeat.com.br/20-pratos-veganos-para-provar-em-sp/
-
-https://homechefs.com.br/blog/as-10-melhores-sobremesas-veganas/
+- photos: https://www.findandeat.com.br/20-pratos-veganos-para-provar-em-sp/
 
 # How to run
 Clone this repository
 Finally access http://localhost:3000 on your favorite browser. (unless it is Internet Explorer. In this case, review your life decisions). 
 
-You can also try it out now at (link deploy)
+You can also try it out now at https://myvegan.vercel.app/
 
 # Who
 My name is Ludmila Silveira, I'm 19 years old and I'm a Computer Engineer student at Federal University of Santa Catarina (UFSC). I'm currently studying to be a full stack developer and this is a learning project.
