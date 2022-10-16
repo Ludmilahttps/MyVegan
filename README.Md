@@ -12,18 +12,11 @@ This project is a mobile implementation of a food delivery app, for this, the re
 - Interaction
     - When clicking on an item it must be marked as selected;
     - When clicking on an item, if there is already an item selected in the same category, the previous one will be deselected and the new item clicked will be selected;
-    - When clicking on an item already marked, it is **not** necessary to unmark it.
+    - When clicking on an item already marked, it is unmark.
 
 - Return
     - The end order button must be disabled. When clicking the button in this state, nothing should happen.
     - When user selects items from 3 different categories, the button changes to enabled state
-    - At the end of the order, the user must be forwarded to **WhatsApp**, in a conversation with the restaurant contact, with a standard message filled in
-    - This message should follow the format below:
-        Olá, gostaria de fazer o pedido:
-        Prato: Frango Yin Yang
-        Bebida: Coquinha Gelada
-        Sobremesa: Pudim
-        Total: R$ 27.70
 
 # OBS
 This web site is a replica, using the tecnologies:

@@ -17,6 +17,16 @@ img
     display: flex;
     margin-top: 3px;
 }
+
+.icon
+{
+    color: #10c036;
+    font-size: 18px;
+    display: flex;
+    margin-right: 0px;
+    margin-left: 60px;
+}
+
 .boxes b
 {
     color: #333333;
@@ -163,6 +173,13 @@ img
     display: none;
 }
 
+.check
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
 .selectDish, .selectDessert, .selectDrink
 {
     padding: 9px;
@@ -178,7 +195,7 @@ img
     margin-bottom: 108px;
 }
 
-.finish, .done
+.finish
 {
     background-color: #CBCBCB;
     width: 364px;
@@ -194,7 +211,7 @@ img
     justify-content: center;
 }
 
-.finish, .done p
+.finish p
 {
     font-family: Roboto;
     font-weight: 400;
@@ -205,15 +222,17 @@ img
     color: #FFFFFF;
 }
 
-.done
+.enable
 {
     background-color: #10c036;
 }
-.ncheck
+
+.value
+{
+    display:flex;
+}
+
+.disable
 {
     display: none;
-}
-.check 
-{
-    display: flex;
 }
