@@ -178,7 +178,7 @@ img
     margin-bottom: 108px;
 }
 
-.finish
+.finish, .done
 {
     background-color: #CBCBCB;
     width: 364px;
@@ -194,13 +194,26 @@ img
     justify-content: center;
 }
 
-.finish p
+.finish, .done p
 {
     font-family: Roboto;
     font-weight: 400;
     font-size: 20px;
-    line-height: 10px;
+    line-height: 20px;
     display: flex;
     align-items: center;
     color: #FFFFFF;
+}
+
+.done
+{
+    background-color: #10c036;
+}
+.ncheck
+{
+    display: none;
+}
+.check 
+{
+    display: flex;
 }
