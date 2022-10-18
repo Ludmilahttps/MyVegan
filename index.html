@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" >
         <div class="top-bar">
             <b>MyVegan</b>
             <p>Your food in 6 minutes</p>
@@ -173,6 +173,35 @@
         <!--end bottom-bar-->
     </div>
     <!--end container-->
+    <div class="overlay disable">
+        <div class="cart">
+            <b>Confirm your order</b>
+            <div class="order details">
+                <div class="order-dish">
+                    <p class="name">item</p>
+                    <p class="price">preco</p>
+                </div>
+                <div class="order-drink">
+                    <p class="name">item</p>
+                    <p class="price">preco</p>
+                </div>
+                <div class="order-dessert">
+                    <p class="name">item</p>
+                    <p class="price">preco</p>
+                </div>
+                <div class="order-price">
+                    <p>TOTAL</p>
+                    <p class="price">PRECO</p>
+                </div>
+            </div>
+            <button class="pay" onclick="sendZap()">
+                <p>Done</p>
+            </button>
+            <button class="cancel" onclick="cancelOrder()">
+                <p>Cancel</p>
+            </button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
