@@ -97,11 +97,11 @@ function sendZap() {
     const adress = prompt("Digite seu endereço: ");
 
     let msg = `Olá, meu nome é ${name} e eu gostaria de fazer o pedido:
-                    - Prato: ${name_dish}
-                    - Bebida: ${name_drink}
-                    - Sobremesa: ${name_dessert}
-                  Total: R$ ${price}
-                  Para ser entregue em: ${adress}`;
+    - Prato: ${name_dish}
+    - Bebida: ${name_drink}
+    - Sobremesa: ${name_dessert}
+    Total: R$ ${price}
+    Para ser entregue em: ${adress}`;
 
     msgWhats = encodeURIComponent(msg);
     window.open(`http://wa.me/55048991339151?text=${msgWhats}`);
